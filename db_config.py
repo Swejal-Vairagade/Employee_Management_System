@@ -1,6 +1,6 @@
 import mysql.connector
 
-def create_connection():
+def create_connection(show_message=False):
     try:
         connection =mysql.connector.connect(
             host="localhost",
@@ -9,7 +9,7 @@ def create_connection():
             database="employee_db"
         )
 
-        if connection.is_connected():
+        if connection.is_connected() and show_message:
             print("Connected to MySQL successfully!")
         return connection
     

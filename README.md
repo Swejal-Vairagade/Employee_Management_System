@@ -40,7 +40,7 @@ salary (FLOAT)
 - Used AUTO_INCREMENT for emp_id
 - Created project folder structure
 
-# Files:
+#### Files:
 - main.py
 - db_config.py
 
@@ -91,8 +91,8 @@ employee_management_system
 ├── .gitignore  
 └── README.md  
 
-## Run Project
-# Install dependency:
+## How to run:
+#### Install dependency:
 - pip install mysql-connector-python  
-# Run project:
+#### Run project:
 - python main.py  
